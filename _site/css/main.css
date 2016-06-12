@@ -321,6 +321,7 @@ a.panel-date {
 
 .panel {
   margin: 10px;
+  margin-left: 0px;
   display: inline-block;
   font-size: 15px !important; }
 
