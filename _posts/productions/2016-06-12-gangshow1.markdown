@@ -1,11 +1,11 @@
 ---
 layout: production
-title:  "BFLOC's 'Grease' Promo"
-date:   2016-05-12 10:39:17 +0100
-tinyimage: productions/grease/bfloc.png
-youtube: https://www.youtube.com/embed/T08rJf6Z_to
+title:  "Blackpool Gang Show 2015 Promo"
+date:   2015-11-12 10:39:17 +0100
+tinyimage: productions/gangshow/logo.png
+youtube: https://www.youtube.com/embed/YaUXeLNx8sw
 skills: Filming, Editing
-client: Blackpool & Fylde Light Opera Company
+client: Blackpool Scout Gang Show
 categories: production
 ---
 <!--The date is in american format, sorry!-->
@@ -13,4 +13,4 @@ categories: production
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
 
-Promotional video production for BFLOC's 'Grease', performed at the Blackpool Grand Theatre from 1st June - 4th June 2016. 
+Promotional video for their 2015 show. 'Come and have the night of nights, Blackpool Gang Show and Blackpool lights'. 
