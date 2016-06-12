@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="home">
+
+<h1 class="page-heading">Welcome to Shuck Productions</h1>
+        <div class="extract">
+      {% for page in site.pages %}
+        {% if page.categories contains 'summary' %}
+            {{ page.content | strip_html |truncatewords: 50 }}
+            <a href="{{ post.url }}"> <b><i>Read more</i></b></a>
+          </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+
+<!-- Column 1 -->
