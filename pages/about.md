@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-category: summary
+categories: summary
 ---
 
 **Shuck Productions**, based in the North West of England. We strive to create quality products from short films to promotional videos.

@@ -14,8 +14,6 @@ permalink: /blog/
   </div>
 </div> 
 
-<div class="blockofposts">
-
 {% for post in site.categories.blog %}
 <div class="panel panel-default panel-post">
   <div class="panel-heading">{{ post.title }}</div>
@@ -27,7 +25,6 @@ permalink: /blog/
 	 </div>
 
 </div>
-
 {% endfor %}
 </div>
 </div>

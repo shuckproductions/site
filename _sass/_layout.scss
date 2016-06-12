@@ -226,7 +226,7 @@ a.panel-date {
 
 
 .postblock {
-    display: inline-flex;
+    display: inline-block;
 }
 
 .blocks {
@@ -240,6 +240,9 @@ a.panel-date {
     font-size:15px !important;
 }
 
+.panel-post-home {
+	width: 355px;
+}
 
 /**
  * Site footer

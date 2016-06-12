@@ -313,7 +313,7 @@ a.panel-date {
   text-decoration: none; }
 
 .postblock {
-  display: inline-flex; }
+  display: inline-block; }
 
 .blocks {
   display: inline-flex;
@@ -323,6 +323,9 @@ a.panel-date {
   margin: 10px;
   display: inline-block;
   font-size: 15px !important; }
+
+.panel-post-home {
+  width: 355px; }
 
 /**
  * Site footer
