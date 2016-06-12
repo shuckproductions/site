@@ -20,7 +20,7 @@ permalink: /blog/
   <div class="panel-heading">{{ post.title }}</div>
   <div class="panel-body">
 	<p>{{ post.excerpt | strip_html | truncatewords:25 }}</p>
-</p>
+
 
 	 <a href="{{ post.url }}" class="btn btn-default">Read more</a> <a class="panel-date">{{ post.date | date: '%B %d, %Y' }}</a><br>
 	 </div>
