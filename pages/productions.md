@@ -16,7 +16,7 @@ permalink: /productions/
 	<p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ post.skills }} </p>
 	 <a href="{{ post.url }}" class="btn btn-default">Read more</a>
 	 </div>
-	</div></div>
+	</div>
 
 {% endfor %}
 

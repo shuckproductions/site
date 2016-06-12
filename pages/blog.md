@@ -14,6 +14,7 @@ permalink: /blog/
   </div>
 </div> 
 
+<div class="blockofposts">
 
 {% for post in site.categories.blog %}
 <div class="panel panel-default panel-post">
@@ -28,4 +29,5 @@ permalink: /blog/
 </div>
 
 {% endfor %}
+</div>
 </div>
