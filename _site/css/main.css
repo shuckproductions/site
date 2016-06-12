@@ -295,9 +295,7 @@ pre {
   width: 30%; }
 
 .panel-production {
-  min-width: 350px;
-  max-width: 400px;
-  width: 100%; }
+  width: 375px; }
 
 .panel-production-homepage {
   min-width: 300px;
