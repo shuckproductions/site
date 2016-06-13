@@ -21,7 +21,7 @@ layout: default
   </div>
 </div> 
 
-{% for post in site.categories.blog %}
+{% for post in site.categories.blog | limit: 2 %}
 <div class="panel panel-default panel-post panel-post-home">
   <div class="panel-heading">{{ post.title }}</div>
   <div class="panel-body">
@@ -34,7 +34,7 @@ layout: default
 </div>
 {% endfor %}
 
-{% for post in site.categories.production %}
+{% for post in site.categories.production | limit: 4 %}
 <div class="panel panel-default panel-production">
   <div class="panel-heading">{{ post.title }}</div>
   <div class="panel-body">
