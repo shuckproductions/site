@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Productions
+menu: main
 permalink: /productions/
 ---
 
