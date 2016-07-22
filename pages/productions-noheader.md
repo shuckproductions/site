@@ -3,6 +3,7 @@ layout: noheader
 title: Productions
 permalink: /productions-sans-header/
 ---
+<base target="_parent" />
 
 <div class="grid-container">
 
