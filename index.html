@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-
-<div class="home">
+  <div class="grid-container">
 
 <h1 class="page-heading">Welcome to Shuck Productions</h1>
 
@@ -10,41 +9,38 @@ layout: default
   {% if page.categories contains 'summary' %}
       {{page.content | strip_html | truncatewords:30}}
       <a href="{{ page.url }}">Read more</a></p>
-    </div>
   {% endif %}
 {% endfor %}
 
-<div class="panel panel-default panel-twitter">
-  <div class="panel-heading">Tweets</div>
-  <div class="panel-body">
-    <a class="twitter-timeline" data-width="300" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/shuckproduction">Tweets by shuckproduction</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
-</div> 
+ <br>
+
+
+    <div class="grid-30 mobile-grid-100" style="height:520px;">
+    <a class="twitter-timeline" data-width="300" data-height="500" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/shuckproduction">Tweets by shuckproduction</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 
 {% for post in site.categories.blog | limit: 2 %}
-<div class="panel panel-default panel-post panel-post-home">
-  <div class="panel-heading">{{ post.title }}</div>
-  <div class="panel-body">
-	<p>{{ post.excerpt | strip_html | truncatewords:25 }}</p>
 
-
-	 <a href="{{ post.url }}" class="btn btn-default">Read more</a> <a class="panel-date">{{ post.date | date: '%B %d, %Y' }}</a><br>
-	 </div>
-
-</div>
+    <div class="grid-30 mobile-grid-100">
+      <div class="panel-heading">{{ post.title }}</div>
+    <p>{{ post.excerpt | strip_html | truncatewords:25 }}</p>
+    <div class="atbottom"><a href="{{ post.url }}" class="btn btn-default">Read more</a> <a class="panel-date">{{ post.date | date: '%B %d, %Y' }}</a><br></div>
+    </div>
+  
 {% endfor %}
+
 
 {% for post in site.categories.production | limit: 4 %}
-<div class="panel panel-default panel-production">
-  <div class="panel-heading">{{ post.title }}</div>
-  <div class="panel-body">
-  <img class="tinyimage" src="{{site.baseurl}}/image/{{post.tinyimage}}"><br>
-  <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>{{ post.date | date: "%B %Y" }}<br></p>
-	<p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ post.skills }} </p>
-	 <a href="{{ post.url }}" class="btn btn-default">Read more</a>
-	 </div>
-	</div>
+    <div class="grid-30 mobile-grid-100 ">
+    <div class="panel-heading">{{ post.title }}</div>
+      <img class="tinyimage" src="{{site.baseurl}}/image/{{post.tinyimage}}"><br>
+      <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>{{ post.date | date: "%B %Y" }}<br></p>
+      <p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ post.skills }} </p>
+      <div class="atbottom"><a href="{{ post.url }}" class="btn btn-default">Read more</a></div>
 
+  </div>
 {% endfor %}
+</div>
 
 <!-- Column 1 -->
+</div>

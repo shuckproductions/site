@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: noheader
 title: Productions
-permalink: /productions/
+permalink: /productions-sans-header/
 ---
 
 <div class="grid-container">
