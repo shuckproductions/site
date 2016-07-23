@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+navigation_weight: 2
 menu: main
 permalink: /blog/
 ---
@@ -12,12 +13,16 @@ permalink: /blog/
 </div>
 
 
-{% for post in site.categories.blog  %}
- <div class="grid-30 mobile-grid-100">
-<div class="panel-heading">{{ post.title }}</div>
-<p>{{ post.excerpt | strip_html | truncatewords:25 }}</p>
- <a href="{{ post.url }}" class="btn btn-default">Read more</a> <a class="panel-date">{{ post.date | date: '%B %d, %Y' }}</a><br>
-</div>
+{% for post in site.categories.blog %}
 
+<div class="grid-30 mobile-grid-100">
+  <div class="attop">
+      <div class="panel-heading">{{ post.title }}</div>
+    <p>{{ post.excerpt | strip_html | truncatewords:25 }}</p>
+    </div>
+    <div class="atbottom"><a class="panel-date">{{ post.date | date: '%B %d, %Y' }} &nbsp; </a><a href="{{ post.url }}" class="btn btn-default">Read more</a><br></div>
+    </div>
+  
 {% endfor %}
+
 </div>

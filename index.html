@@ -22,9 +22,11 @@ layout: default
 {% for post in site.categories.blog | limit: 2 %}
 
     <div class="grid-30 mobile-grid-100">
+    <div class="attop">
       <div class="panel-heading">{{ post.title }}</div>
     <p>{{ post.excerpt | strip_html | truncatewords:25 }}</p>
-    <div class="atbottom"><a href="{{ post.url }}" class="btn btn-default">Read more</a> <a class="panel-date">{{ post.date | date: '%B %d, %Y' }}</a><br></div>
+    </div>
+    <div class="atbottom"><a class="panel-date">{{ post.date | date: '%B %d, %Y' }} &nbsp; </a><a href="{{ post.url }}" class="btn btn-default">Read more</a><br></div>
     </div>
   
 {% endfor %}
@@ -32,10 +34,12 @@ layout: default
 
 {% for post in site.categories.production | limit: 4 %}
     <div class="grid-30 mobile-grid-100 ">
+    <div class="attop">
     <div class="panel-heading">{{ post.title }}</div>
       <img class="tinyimage" src="{{site.baseurl}}/image/{{post.tinyimage}}"><br>
       <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>{{ post.date | date: "%B %Y" }}<br></p>
       <p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ post.skills }} </p>
+      </div>
       <div class="atbottom"><a href="{{ post.url }}" class="btn btn-default">Read more</a></div>
 
   </div>

@@ -59,7 +59,7 @@
 
 .tinyimage {
     height: 125px;
-    padding-right: 4px;
+    padding-right: 30px;
     float: left;
 }
 
@@ -390,8 +390,12 @@ a.panel-date {
 }
 
 /* Panel */
+.attop {
+  height: 200px;
+}
 .atbottom {
-  padding-top: 40px;
+  padding-top: 0px;
+  float: right;
 }
 .panel {
   margin-bottom: 21px;

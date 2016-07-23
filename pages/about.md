@@ -1,8 +1,9 @@
 ---
 layout: page
 title: About
-menu: main
+navigation_weight: 1
 permalink: /about/
+menu: main
 categories: summary
 ---
 
