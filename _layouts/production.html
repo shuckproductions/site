@@ -17,13 +17,14 @@ layout: default
 
   <br><div class="description">
   <b><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Description:</b>  {{ content }}
-  </div><br>
+  </div>
 
   {% if page.youtube == null %} 
   {% elsif page.youtube == " " %}
   {% elsif page.youtube == "  " %} 
   {% elsif page.youtube == "   " %} 
   {% else %}
+  <br>
   <p class="minorinfo"><b><i class="fa fa-film" aria-hidden="true"></i> Watch it: </b></p>
   <iframe id="ytplayer" type="text/html" width="100%" height="400"
   src="{{ page.youtube }}?autoplay=0&modestbranding=1&showinfo=0"

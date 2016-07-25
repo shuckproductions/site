@@ -1,0 +1,18 @@
+---
+layout: production
+title:  "DofE Gold - The Qualifier"
+date:   2016-07-25 10:39:17 +0100
+tinyimage: productions/dofe.png
+youtube: 
+skills: Filming, Editing
+client: Duke of Edinburgh Award
+categories: production
+---
+<!--The date is in american format, sorry!-->
+<!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
+<!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
+<!-- Write the description below, no character limit -->
+
+From the 9th July to the 12th July a group of 7 people took up the challenge of there DofE Gold qualifying expedition.
+
+Watch how they got on...
