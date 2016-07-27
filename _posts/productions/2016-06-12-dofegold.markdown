@@ -13,7 +13,7 @@ categories: production
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
 
-From the 9th July to the 12th July a group of 7 people took up the challenge of there DofE Gold qualifying expedition.
+From the 9th July to the 12th July a group of 7 people took up the challenge of their DofE Gold qualifying expedition.
 
 Watch how they got on...
 
