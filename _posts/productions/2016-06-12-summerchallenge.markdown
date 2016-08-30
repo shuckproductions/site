@@ -1,11 +1,11 @@
 ---
 layout: production
-title:  "Mad on Her 80's Musical"
-date:   2016-07-12 10:39:17 +0100
-tinyimage: productions/northernstar/moh.png
+title:  "Scream Summer Challenge 2016"
+date:   2016-08-12 10:39:17 +0100
+tinyimage: productions/scream/2016.png
 youtube: 
 skills: Filming, Editing
-client: Ashley Luke Lloyd
+client: Scream Theatre Schools
 categories: production
 ---
 <!--The date is in american format, sorry!-->
@@ -13,4 +13,4 @@ categories: production
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
 
-We filmed the 16th July performance at the Hope Mill Theatre, Manchester. 
+This summer a group of students from Scream Theatre School have been working on a showcase of singing, dancing and acting from a variety of different musicals. The show was directed by Ashley Luke Lloyd. (Video in editing)
