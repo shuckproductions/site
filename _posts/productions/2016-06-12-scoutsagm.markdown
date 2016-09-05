@@ -5,6 +5,7 @@ date:   2015-09-12 10:39:17 +0100
 tinyimage: productions/scouts/logo.png
 youtube: https://www.youtube.com/embed/j_8B0gh0CE0
 skills: Editing
+software: Final Cut Pro
 client: Blackpool District Scouts
 categories: production
 ---

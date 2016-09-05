@@ -5,6 +5,7 @@ date:   2015-06-12 10:39:17 +0100
 tinyimage: productions/scouts/camp2015.png
 youtube: https://www.youtube.com/embed/jARdzxbI4KY
 skills: Editing, Filming, Photography
+software: Final Cut Pro
 client: Blackpool District Scouts
 categories: production
 ---

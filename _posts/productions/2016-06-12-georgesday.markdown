@@ -5,6 +5,7 @@ date:   2016-04-12 10:39:17 +0100
 tinyimage: productions/scouts/george16.png
 youtube: https://www.youtube.com/embed/tfKCcHuy1PY
 skills: Editing, Photography
+software: Final Cut Pro
 client: Blackpool District Scouts
 categories: production
 ---

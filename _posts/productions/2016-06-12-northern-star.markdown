@@ -5,6 +5,7 @@ date:   2015-08-12 10:39:17 +0100
 tinyimage: productions/northernstar/northernstar.png
 youtube: https://www.youtube.com/embed/Mb9O6U29rSE
 skills: Filming, Editing
+software: Final Cut Pro
 client: Ashley Luke Lloyd
 categories: production
 ---

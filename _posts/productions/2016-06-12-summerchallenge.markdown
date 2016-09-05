@@ -5,6 +5,7 @@ date:   2016-08-12 10:39:17 +0100
 tinyimage: productions/scream/2016.png
 youtube: 
 skills: Filming, Editing
+software: Adobe Premiere Pro
 client: Scream Theatre Schools
 categories: production
 ---

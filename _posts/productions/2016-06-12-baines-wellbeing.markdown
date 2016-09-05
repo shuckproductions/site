@@ -5,6 +5,7 @@ date:   2016-02-12 10:39:17 +0100
 tinyimage: productions/baines/tinyimage.png
 youtube: https://www.youtube.com/embed/m3lpYf-kEnA
 skills: Editing, Filming
+software: Final Cut Pro
 client: Baines School Wellbeing Committee
 categories: production
 ---

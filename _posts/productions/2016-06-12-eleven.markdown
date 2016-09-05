@@ -4,6 +4,7 @@ title:  "ELEVEN - Short Film"
 date:   2016-08-22 10:39:17 +0100
 tinyimage: productions/shorts/eleven.png
 youtube: https://www.youtube.com/embed/E98u-xIp-XM
+software: Final Cut Pro
 skills: Filming, Editing, Directing
 client: Shuck Productions
 categories: production
