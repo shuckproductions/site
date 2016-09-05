@@ -9,11 +9,14 @@ layout: default
   <br><br>	
   <header class="production-header">
     <h1 class="production-title" itemprop="name headline">{{ page.title }}</h1>  </header>
-   
+ 
    <img class="tinyimage" src="{{site.baseurl}}/image/{{page.tinyimage}}"><br>
+<div class="bigblockright">
    <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %Y" }}</time><br>
    <p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ page.skills }} </p>
+      <p class="minorinfo"><b><i class="fa fa-file-video-o" aria-hidden="true"></i> Software: </b> {{ page.software }} </p>
    <p class="minorinfo"><b><i class="fa fa-briefcase" aria-hidden="true"></i> Client: </b> {{ page.client }} </p><br>
+</div>
 
   <br><div class="description">
   <b><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Description:</b>  {{ content }}
