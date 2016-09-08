@@ -3,7 +3,7 @@ layout: production
 title:  "Mad on Her 80's Musical"
 date:   2016-07-12 10:39:17 +0100
 tinyimage: productions/northernstar/moh.png
-youtube: 
+youtube: https://www.youtube.com/embed/o3r7Nf0bCkg
 skills: Filming, Editing
 software: Final Cut Pro
 client: Ashley Luke Lloyd
@@ -14,4 +14,4 @@ categories: production
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
 
-We filmed the 16th July performance at the Hope Mill Theatre, Manchester. 
+Journey through the smash hits of the 80's, step into the nostalgia of neon lights and get ready to party the night away!

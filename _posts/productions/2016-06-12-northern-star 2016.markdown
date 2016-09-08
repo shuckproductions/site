@@ -3,7 +3,7 @@ layout: production
 title:  "Northern Star* 2016"
 date:   2016-07-31 10:39:17 +0100
 tinyimage: productions/northernstar/northernstar.png
-youtube: https://www.youtube.com/embed/6wSwJ8M7nfU"
+youtube: https://www.youtube.com/embed/5mzP4Ys8ECM
 skills: Filming, Editing
 software: Final Cut Pro
 client: Ashley Luke Lloyd
@@ -13,4 +13,4 @@ categories: production
 <!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
-Mini-Documentary for the 2016 Northern Star* talent competition.  
+Follow the starlets, from the workshops to the Grand Finale, in this mini-documentary.
