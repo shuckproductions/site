@@ -1,0 +1,17 @@
+---
+layout: production
+title:  "Cubs100 - Blackpool Tower Sleepover"
+date:   2016-09-12 10:39:17 +0100
+tinyimage: productions/scouts/cubs100.png
+youtube: https://www.youtube.com/embed/GBa7SAGFvMA
+skills: Filming, Editing
+software: Adobe Premiere Pro
+client: Blackpool District Cubs
+categories: production
+---
+<!--The date is in american format, sorry!-->
+<!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
+<!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
+<!-- Write the description below, no character limit -->
+
+Over 200 Cubs from Blackpool and surrounding districts got together to celebrate Cubs100 at the Blackpool Tower!
