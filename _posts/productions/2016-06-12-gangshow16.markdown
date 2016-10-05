@@ -1,7 +1,7 @@
 ---
 layout: production
 title:  "Blackpool Gang Show 2016 Promo"
-date:   2015-11-12 10:39:17 +0100
+date:   2016-10-13 10:39:17 +0100
 tinyimage: productions/gangshow/logo.png
 youtube: https://www.youtube.com/embed/ZEf9NNG9L-s
 skills: Filming, Editing
