@@ -9,7 +9,7 @@ menu: main
 <div class="grid-container">
 
 {% for post in site.categories.production %}
-<div class="grid-30 mobile-grid-100">
+<div class="grid-33 mobile-grid-100">
 <div class="attop">
   <div class="panel-heading">{{ post.title }}</div>
   <img class="tinyimage" src="{{site.baseurl}}/image/{{post.tinyimage}}"><br>
