@@ -2,9 +2,6 @@
 /* This file has a mobile-to-desktop breakpoint */
 /* ============================================ */
 
-.mobile-grid-100 {
-  width: 100% !important;
-}
 
 @media (max-width: 400px) {
   @-ms-viewport {
