@@ -2,7 +2,7 @@
 /* This file has a mobile-to-desktop breakpoint */
 /* ============================================ */
 
-div.grid-33.mobile-grid-100 {
+.mobile-grid-100 {
   width: 100% !important;
 }
 
