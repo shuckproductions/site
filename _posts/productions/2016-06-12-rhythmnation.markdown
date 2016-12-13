@@ -3,7 +3,7 @@ layout: production
 title:  "Rhythm Nation [ADVERT]"
 date:   2016-11-12 10:39:17 +0100
 tinyimage: productions/rnation.png
-youtube: 
+youtube: https://www.youtube.com/embed/jO2ZLOGNfDM
 skills: Filming, Editing
 software: Adobe Premiere Pro & After Effects
 client: Aaron Ashley Parker
