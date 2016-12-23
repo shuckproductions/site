@@ -1,6 +1,6 @@
 ---
 layout: production
-title:  "Mad on Her 80's Musical"
+title:  "Mad on Her - 80's Musical"
 date:   2016-07-12 10:39:17 +0100
 tinyimage: productions/northernstar/moh.png
 youtube: https://www.youtube.com/embed/o3r7Nf0bCkg
