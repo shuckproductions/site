@@ -151,6 +151,13 @@ pre {
 /**
  * Site header
  */
+.grid-33 {
+  border: 1px solid #EEEEEE;
+  float: left !important;
+  margin: 5px !important;
+  padding: 10px !important;
+  width: 32% !important; }
+
 .bigblockright {
   display: inline-block; }
 

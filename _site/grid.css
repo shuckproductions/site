@@ -1,6 +1,8 @@
 /* ============================================ */
 /* This file has a mobile-to-desktop breakpoint */
 /* ============================================ */
+
+
 @media (max-width: 400px) {
   @-ms-viewport {
     width: 320px;
@@ -761,7 +763,7 @@
 
   .mobile-grid-100 {
     clear: both;
-    width: 100%;
+    width: 100% !important;
   }
 }
 @media (min-width: 768px) {
