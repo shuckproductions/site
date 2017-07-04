@@ -1,0 +1,18 @@
+---
+layout: production
+title:  "Baines School"
+date:   2017-05-12 10:39:17 +0100
+tinyimage: productions/baines/baines.png
+youtube: https://www.youtube.com/embed/BbG4q-nCddA
+skills: Editing, Filming, Directing
+software: Adobe Premiere Pro
+client: Baines School
+largeimage: productions/largeimage/baines.png
+categories: production
+---
+<!--The date is in american format, sorry!-->
+<!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
+<!-- Tinyimage must be 500 x 550 pixels, make background transparent (looks better but optional), url is from the /images directory -->
+<!-- Write the description below, no character limit -->
+
+Baines School required a promotional video for the school. Their new headteacher, Mrs Chapman, wanted a short video to give new and prospective students and their parents a real feel of what the school is like and give them an insight into life at Baines.

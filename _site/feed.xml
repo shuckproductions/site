@@ -5,9 +5,27 @@
     <description>Shuck Productions create new media content for you. Work with us on many different projects from factual to fictional productions.</description>
     <link>http://shuckproductions.org.uk/</link>
     <atom:link href="http://shuckproductions.org.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Jul 2017 15:43:29 +0100</pubDate>
-    <lastBuildDate>Tue, 04 Jul 2017 15:43:29 +0100</lastBuildDate>
+    <pubDate>Tue, 04 Jul 2017 18:00:20 +0100</pubDate>
+    <lastBuildDate>Tue, 04 Jul 2017 18:00:20 +0100</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Baines School</title>
+        <description>&lt;!--The date is in american format, sorry!--&gt;
+&lt;!--For the youtube link, copy from the videos page, an example would be &#39;https://www.youtube.com/embed/rT26VIe_VBQ&#39;--&gt;
+&lt;!-- Tinyimage must be 500 x 550 pixels, make background transparent (looks better but optional), url is from the /images directory --&gt;
+&lt;!-- Write the description below, no character limit --&gt;
+
+&lt;p&gt;Baines School required a promotional video for the school. Their new headteacher, Mrs Chapman, wanted a short video to give new and prospective students and their parents a real feel of what the school is like and give them an insight into life at Baines.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 May 2017 10:39:17 +0100</pubDate>
+        <link>http://shuckproductions.org.uk/production/2017/05/12/baines.html</link>
+        <guid isPermaLink="true">http://shuckproductions.org.uk/production/2017/05/12/baines.html</guid>
+        
+        
+        <category>production</category>
+        
+      </item>
     
       <item>
         <title>District Camp 2017 [Promo]</title>
@@ -166,24 +184,6 @@
         <pubDate>Mon, 22 Aug 2016 10:39:17 +0100</pubDate>
         <link>http://shuckproductions.org.uk/production/2016/08/22/eleven.html</link>
         <guid isPermaLink="true">http://shuckproductions.org.uk/production/2016/08/22/eleven.html</guid>
-        
-        
-        <category>production</category>
-        
-      </item>
-    
-      <item>
-        <title>Scream Summer Challenge 2016</title>
-        <description>&lt;!--The date is in american format, sorry!--&gt;
-&lt;!--For the youtube link, copy from the videos page, an example would be &#39;https://www.youtube.com/embed/rT26VIe_VBQ&#39;--&gt;
-&lt;!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory --&gt;
-&lt;!-- Write the description below, no character limit --&gt;
-
-&lt;p&gt;This summer a group of students from Scream Theatre School have been working on a showcase of singing, dancing and acting from a variety of different musicals. The show was directed by Ashley Luke Lloyd. (Video in editing)&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Aug 2016 10:39:17 +0100</pubDate>
-        <link>http://shuckproductions.org.uk/production/2016/08/12/summerchallenge.html</link>
-        <guid isPermaLink="true">http://shuckproductions.org.uk/production/2016/08/12/summerchallenge.html</guid>
         
         
         <category>production</category>
