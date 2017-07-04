@@ -75,8 +75,7 @@ Our creative team work together on many different productions from fact to ficti
 			</div>
 			<div class="grid-100 mobile-grid-100 flowtext">
 		    <!-- FLOWBLOCK TEXT HERE -->
-		    HERE HEREHEREHE REHEREHEREH EREHEREHEREHE REHEREHE REHEREHEREHERE HEREHE REHERE HEREHERE HERE
-		    <!-- -->
+			Now it’s time to bring your project to life. We’ll work closely with you through the production and editing process to ensure the project meets your requirements.    <!-- -->
 			</div>
 		</div>
 	</div>
