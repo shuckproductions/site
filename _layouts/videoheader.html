@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+    <div class="videobox">
+      <div class="wrapper overlaytext">
+      <span class="large-videobox">{{page.slogan}}</span>
+      <br>
+      </div>
+
+      <span class="wrapper overlaysocial"> 
+      <a href="//twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter page-link social-link" aria-hidden="true"></i></a>
+      <a href="//facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook page-link social-link" aria-hidden="true"></i></a>
+      <a href="//youtube.com/channel/{{ site.youtube_channel_id }}"><i class="fa fa-youtube page-link social-link" aria-hidden="true"></i></a>
+      <a href="//instagram.com/{{ site.instagram_username }}"><i class="fa fa-instagram page-link social-link" aria-hidden="true"></i></a>
+      <a href="//vimeo.com/{{ site.vimeo_username }}"><i class="fa fa-vimeo page-link social-link" aria-hidden="true"></i></a>
+      <a href="//flickr.com/{{ site.flickr_username }}"><i class="fa fa-flickr page-link social-link" aria-hidden="true"></i></a>
+
+
+
+
+      </span>
+      </div>
+
+    </div>
+    <div class="page-content">
+
+
+
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

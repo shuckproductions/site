@@ -8,6 +8,7 @@ skills: Editing
 software: Final Cut Pro
 client: Matthew Hornby
 categories: production
+othervideosite: "<iframe src='https://drive.google.com/file/d/0Bz9rQBKghqW2QTRUUTViZnQxWXc/preview' width='640' height='480' allowfullscreen='allowfullscreen'></iframe>"
 ---
 <!--The date is in american format, sorry!-->
 <!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
@@ -16,4 +17,3 @@ categories: production
 
 Follow the journey of the West Lancashire Contingent from training to being there in Japan for the 23rd World Scout Jamboree.
 
-<iframe src="https://drive.google.com/file/d/0Bz9rQBKghqW2QTRUUTViZnQxWXc/preview" width="640" height="480" allowfullscreen="allowfullscreen"></iframe>

@@ -3,11 +3,11 @@ layout: production
 title:  "Nathaniel's 18th Weekend"
 date:   2016-10-01 10:39:17 +0100
 tinyimage: productions/weekend.png
-youtube: 
 skills: Filming, Editing
 software: Adobe Premiere Pro
 client: Nathaniel Read
 categories: production
+othervideosite: "<iframe src='https://drive.google.com/file/d/0Bz3YsAm1E_TtX0ZsQkRpOE9aYXM/preview' width='640' height='480' allowfullscreen='allowfullscreen'></iframe>"
 ---
 <!--The date is in american format, sorry!-->
 <!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
@@ -16,4 +16,3 @@ categories: production
 
 Nathaniel wanted a video to cover the events on his birthday weekend, so here they are...
 
-<iframe src="https://drive.google.com/file/d/0Bz3YsAm1E_TtX0ZsQkRpOE9aYXM/preview" width="640" height="480" allowfullscreen="allowfullscreen"></iframe>

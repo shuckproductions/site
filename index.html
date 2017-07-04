@@ -1,50 +1,27 @@
 ---
-layout: default
+layout: videoheader
+slogan: 'Stories in Motion'
 ---
-  <div class="grid-container">
 
-<h1 class="page-heading">Welcome to Shuck Productions</h1>
+<br><br><br>
 
-{% for page in site.pages %}
-  {% if page.categories contains 'summary' %}
-      {{page.content | strip_html | truncatewords:30}}
-      <a href="{{ page.url }}">Read more</a></p>
-  {% endif %}
+<div class="recentprojectconstrain">
+<div class="projectstitle">Our recent projects</div>
+
+<div class="grid-container">
+
+{% for post in site.categories.production | limit: 3 %}
+<a href="{{post.url}}">
+<div class="grid-33 mobile-grid-100 blockhome">
+<div class="attop">
+  <img class="largeimage" src="{% if post.largeimage %}{{site.baseurl}}/image/{{post.largeimage}}{% else %}{{site.baseurl}}/image/productions/comingsoon.png{% endif %}"><br>
+  </div>   
+    <div class="atbottom"><div class="panel-heading panelhead-prods">{{ post.title }}</div>
+   </div>
+   </div>
+</a>
 {% endfor %}
-
- <br>
-
-
-    <div class="grid-33 mobile-grid-100" style="height:520px; width: 100%; overflow-y: hidden;">
-    <a class="twitter-timeline" data-width="100%" data-height="500" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/shuckproduction">Tweets by shuckproduction</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    </div>
-
-{% for post in site.categories.blog | limit: 2 %}
-
-    <div class="grid-33 mobile-grid-100">
-    <div class="attop">
-      <div class="panel-heading">{{ post.title }}</div>
-    <p>{{ post.excerpt | strip_html | truncatewords:25 }}</p>
-    </div>
-    <div class="atbottom"><a class="panel-date">{{ post.date | date: '%B %d, %Y' }} &nbsp; </a><a href="{{ post.url }}" class="btn btn-default">Read more</a><br></div>
-    </div>
-  
-{% endfor %}
-
-
-{% for post in site.categories.production | limit: 4 %}
-    <div class="grid-33 mobile-grid-100 ">
-    <div class="attop">
-    <div class="panel-heading">{{ post.title }}</div>
-      <img class="tinyimage" src="{{site.baseurl}}/image/{{post.tinyimage}}"><br>
-      <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>{{ post.date | date: "%B %Y" }}<br></p>
-      <p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ post.skills }} </p>
-      </div>
-      <div class="atbottom"><a href="{{ post.url }}" class="btn btn-default">Read more</a></div>
-
-  </div>
-{% endfor %}
-</div>
+</div></div>
 
 <!-- Column 1 -->
 </div>

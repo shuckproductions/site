@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
+  
+<script type="text/javascript">
+$(function() {
+var images = ['01.png', '02.png', '03.png', '04.png', '05.png', '06.png', '07.png'];
+$('.backingimage').css({'background-image': 'url(/image/backing/' + images[Math.floor(Math.random() * images.length)] + ')'});
+});
+</script>
+
+
 
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Blog</title>
+  <title>Blog HIDE</title>
   <meta name="description" content="Shuck Productions create new media content for you. Work with us on many different projects from factual to fictional productions.">
 
   <link rel="stylesheet" href="/css/main.css">
@@ -39,14 +48,11 @@
 
   <body>
 
-    <div class="backingimage"></div>
-
-
-
-<header class="site-header">
-  <div class="wrapper">
+    <header class="site-header">
 
     <div id="topcontain">
+      <div class="wrapper">
+
         <a class="site-title" href="/"><span class="logoimage" style="background: url('/image/identity/blueshuck.svg');"></span></a>
       
        <div class="textcontent">
@@ -67,7 +73,6 @@
               
             
               
-              <a class="page-link" href="/blog/">Blog</a>
               
             
               
@@ -80,7 +85,11 @@
               
             
               
-              <a class="page-link" href="/productions/">Productions</a>
+              <a class="page-link" href="/productions/">Portfolio</a>
+              
+            
+              
+              <a class="page-link" href="/testimonials/">Testimonials</a>
               
             
               
@@ -88,10 +97,6 @@
               
             
 
-            <a href="//twitter.com/shuckproduction"><i class="fa fa-twitter page-link" aria-hidden="true"></i></a>
-            <a href="//facebook.com/shuckproduction"><i class="fa fa-facebook page-link" aria-hidden="true"></i></a>
-            <a href="//youtube.com/channel/UCVyJVvAwP48xrcMMCfANnyA"><i class="fa fa-youtube page-link" aria-hidden="true"></i></a>
-            <a href="//instagram.com/shuckproduction"><i class="fa fa-instagram page-link" aria-hidden="true"></i></a>
           </div>
         </nav>
      </div>
@@ -103,15 +108,18 @@
 </header>
 
 
+
+    <div class="backingimage"><div class="ourwork ourwork-inwrap wrapper">Blog HIDE</div>
+</div> <br>
+
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post wrappertight">
 
   <header class="post-header">
   </header>
-    <h1 class="post-title">Blog</h1>
-
-  <div class="post-content">
+  
+  <div class="post-content ">
     <div class="grid-container">
 
 <div class="grid-30 mobile-grid-100" style="height:520px;">
@@ -173,8 +181,7 @@
 
       </div>
     </div>
-
-      <div class="pagecontent">
+    <div class="pagecontent">
 
 
 <footer class="site-footer">
@@ -183,24 +190,25 @@
 
     <h2 class="footer-heading"></h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-      <i class="fa fa-copyright" aria-hidden="true"></i> Copyright Shuck Productions - <script>document.write(new Date().getFullYear())</script><br>
+<div class="grid-container">
+      <div class="grid-33 mobile-grid-100 noborder">
+      Shuck Productions create new media content for you. Work with us on many different projects from factual to fictional productions.<br>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="grid-33 mobile-grid-100 noborder">
       
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>Shuck Productions create new media content for you. Work with us on many different projects from factual to fictional productions.</p>
+      <div class="grid-33 mobile-grid-100 noborder rightbox">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright Shuck Productions - <script>document.write(new Date().getFullYear())</script></p>
+        <br>
+        <div class="siteby"><a href="//northfolk.co.uk"><span class="siteby1">Site by</span> <div class="sitebyimg"></div></a></div>
       </div>
     </div>
 
   </div>
 
 </footer>
-
 
   </body>
 

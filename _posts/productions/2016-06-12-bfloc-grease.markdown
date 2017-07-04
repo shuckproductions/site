@@ -3,6 +3,7 @@ layout: production
 title:  "BFLOC's 'Grease' Promo"
 date:   2016-05-12 10:39:17 +0100
 tinyimage: productions/grease/bfloc.png
+largeimage: productions/largeimage/bfloc.png
 youtube: https://www.youtube.com/embed/T08rJf6Z_to
 skills: Filming, Editing
 software: Final Cut Pro

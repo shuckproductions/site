@@ -9,10 +9,81 @@ categories: summary
 
 **Shuck Productions**, based in the North West of England. We strive to create quality products from short films to promotional videos.
 
-The company was founded by Jordan Shuck, a filmmaker/actor from Blackpool. Find more information about Jordan [here](http://jordan.shuck.org.uk).
-
 Our creative team work together on many different productions from fact to fiction. We aim to tell the story of each sequence and deliver the important message to the audience.
 
-We work closely with <a href="http://www.blackpoolscouts.org.uk" target="_blank"> Blackpool Scouts </a>, creating their events videos and promotional material, to show their everyday adventure they provide young people. You can view our work for them on their Youtube channel. 
+<div class="grid-container">
+<hr><br>
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100">
+		<div class="grid-container">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Idea <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+			All projects have a great idea behind them. We’ll work with you to develop a concept for your project.
+		   	<!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100">
+		<div class="grid-container">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Script <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+			The script is the basis of any video. Whether it’s going to be narrated, title driven or even a sequence of shots. We’ll make sure it’s perfect.		    <!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100">
+		<div class="grid-container">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Storyboard <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+		    HERE HEREHEREHE REHEREHEREH EREHEREHEREHE REHEREHE REHEREHEREHERE HEREHE REHERE HEREHERE HERE
+		    <!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100">
+		<div class="grid-container">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Production <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+		    HERE HEREHEREHE REHEREHEREH EREHEREHEREHE REHEREHE REHEREHEREHERE HEREHE REHERE HEREHERE HERE
+		    <!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+
+
+
 
 

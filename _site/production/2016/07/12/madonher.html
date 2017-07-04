@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html>
+  
+<script type="text/javascript">
+$(function() {
+var images = ['01.png', '02.png', '03.png', '04.png', '05.png', '06.png', '07.png'];
+$('.backingimage').css({'background-image': 'url(/image/backing/' + images[Math.floor(Math.random() * images.length)] + ')'});
+});
+</script>
+
+
 
   <head>
   <meta charset="utf-8">
@@ -39,14 +48,11 @@
 
   <body>
 
-    <div class="backingimage"></div>
-
-
-
-<header class="site-header">
-  <div class="wrapper">
+    <header class="site-header">
 
     <div id="topcontain">
+      <div class="wrapper">
+
         <a class="site-title" href="/"><span class="logoimage" style="background: url('/image/identity/blueshuck.svg');"></span></a>
       
        <div class="textcontent">
@@ -67,7 +73,6 @@
               
             
               
-              <a class="page-link" href="/blog/">Blog</a>
               
             
               
@@ -80,7 +85,11 @@
               
             
               
-              <a class="page-link" href="/productions/">Productions</a>
+              <a class="page-link" href="/productions/">Portfolio</a>
+              
+            
+              
+              <a class="page-link" href="/testimonials/">Testimonials</a>
               
             
               
@@ -88,10 +97,6 @@
               
             
 
-            <a href="//twitter.com/shuckproduction"><i class="fa fa-twitter page-link" aria-hidden="true"></i></a>
-            <a href="//facebook.com/shuckproduction"><i class="fa fa-facebook page-link" aria-hidden="true"></i></a>
-            <a href="//youtube.com/channel/UCVyJVvAwP48xrcMMCfANnyA"><i class="fa fa-youtube page-link" aria-hidden="true"></i></a>
-            <a href="//instagram.com/shuckproduction"><i class="fa fa-instagram page-link" aria-hidden="true"></i></a>
           </div>
         </nav>
      </div>
@@ -103,26 +108,45 @@
 </header>
 
 
+
+     <br>
+
     <div class="page-content">
       <div class="wrapper">
-        <a href="/productions"><span><i class="fa fa-arrow-left" aria-hidden="true"></i> productions </span></a>
+        <br><br>
+<a class="btn btn-default backtoportfolio" href="/productions"><span><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to Portfolio </span></a><br><br>
 
 <article class="production" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <br><br>	
+<div class="grid-container grid100">
+
+<div class="grid-50 mobile-grid-100 gridvideo">
+  
+  <iframe id="ytplayer" type="text/html" width="100%" height="400"
+  src="https://www.youtube.com/embed/o3r7Nf0bCkg?autoplay=0&modestbranding=1&showinfo=0"
+  frameborder="0"></iframe>
+  
+
+</div>
+
+
+<div class="grid-45 mobile-grid-100 gridmaintext">
+
+  <br>
   <header class="production-header">
+    More information on:
     <h1 class="production-title" itemprop="name headline">Mad on Her - 80's Musical</h1>  </header>
  
-   <img class="tinyimage" src="/image/productions/northernstar/moh.png"><br>
+   <div class="tinyimage" style="background-image:url('/image/productions/northernstar/moh.png');"></div><br>
 <div class="bigblockright">
-   <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>	<time datetime="2016-07-12T10:39:17+01:00" itemprop="datePublished">July 2016</time><br>
-   <p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>Filming, Editing </p>
-      <p class="minorinfo"><b><i class="fa fa-file-video-o" aria-hidden="true"></i> Software: </b> Final Cut Pro </p>
-   <p class="minorinfo"><b><i class="fa fa-briefcase" aria-hidden="true"></i> Client: </b> Ashley Luke Lloyd </p><br>
+   <p class="minorinfo"><b>Produced:</b>	<time datetime="2016-07-12T10:39:17+01:00" itemprop="datePublished">July 2016</time><br>
+   <p class="minorinfo"><b>Project Type: </b>Filming, Editing </p>
+      <!--<p class="minorinfo"><b><i class="fa fa-file-video-o" aria-hidden="true"></i>&nbsp;Software: </b> Final Cut Pro </p>-->
+   <p class="minorinfo"><b>Client: </b> Ashley Luke Lloyd </p><br>
 </div>
 
   <br><div class="description">
-  <b><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Description:</b>  <!--The date is in american format, sorry!-->
+  <!--The date is in american format, sorry!-->
 <!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
@@ -130,21 +154,14 @@
 <p>Journey through the smash hits of the 80’s, step into the nostalgia of neon lights and get ready to party the night away!</p>
 
   </div>
-
-  
-  <br>
-  <p class="minorinfo"><b><i class="fa fa-film" aria-hidden="true"></i> Watch it: </b></p>
-  <iframe id="ytplayer" type="text/html" width="100%" height="400"
-  src="https://www.youtube.com/embed/o3r7Nf0bCkg?autoplay=0&modestbranding=1&showinfo=0"
-  frameborder="0"/>
+</div>
 
 
 </article>
 
       </div>
     </div>
-
-      <div class="pagecontent">
+    <div class="pagecontent">
 
 
 <footer class="site-footer">
@@ -153,24 +170,25 @@
 
     <h2 class="footer-heading"></h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-      <i class="fa fa-copyright" aria-hidden="true"></i> Copyright Shuck Productions - <script>document.write(new Date().getFullYear())</script><br>
+<div class="grid-container">
+      <div class="grid-33 mobile-grid-100 noborder">
+      Shuck Productions create new media content for you. Work with us on many different projects from factual to fictional productions.<br>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="grid-33 mobile-grid-100 noborder">
       
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>Shuck Productions create new media content for you. Work with us on many different projects from factual to fictional productions.</p>
+      <div class="grid-33 mobile-grid-100 noborder rightbox">
+        <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright Shuck Productions - <script>document.write(new Date().getFullYear())</script></p>
+        <br>
+        <div class="siteby"><a href="//northfolk.co.uk"><span class="siteby1">Site by</span> <div class="sitebyimg"></div></a></div>
       </div>
     </div>
 
   </div>
 
 </footer>
-
 
   </body>
 
