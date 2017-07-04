@@ -57,7 +57,7 @@ Our creative team work together on many different productions from fact to ficti
 			</div>
 			<div class="grid-100 mobile-grid-100 flowtext">
 		    <!-- FLOWBLOCK TEXT HERE -->
-		    HERE HEREHEREHE REHEREHEREH EREHEREHEREHE REHEREHE REHEREHEREHERE HEREHE REHERE HEREHERE HERE
+		    Before we start filming, we’ll give you an idea of what the product is going to look like. If tweaks need making, this is the time to do it.
 		    <!-- -->
 			</div>
 		</div>
