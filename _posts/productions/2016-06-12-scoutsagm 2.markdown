@@ -3,6 +3,7 @@ layout: production
 title:  "West Lancs Contingent - Japan 2015"
 date:   2015-07-12 10:39:17 +0100
 tinyimage: productions/scouts/japan.png
+largeimage: productions/largeimage/WLSJ15.png
 youtube:
 skills: Editing
 software: Final Cut Pro

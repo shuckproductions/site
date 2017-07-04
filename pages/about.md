@@ -16,7 +16,7 @@ Our creative team work together on many different productions from fact to ficti
 	<!-- A FLOWBLOCK -->
 	<div class="grid-25 mobile-grid-100">
 		<div class="grid-container">
-			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/idea.png');">
 			</div><br>
 			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
 			<!-- FLOWBLOCK TITLE HERE --> Idea <!-- -->
@@ -34,7 +34,7 @@ Our creative team work together on many different productions from fact to ficti
 	<!-- A FLOWBLOCK -->
 	<div class="grid-25 mobile-grid-100">
 		<div class="grid-container">
-			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/script.png');">
 			</div><br>
 			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
 			<!-- FLOWBLOCK TITLE HERE --> Script <!-- -->
@@ -50,7 +50,7 @@ Our creative team work together on many different productions from fact to ficti
 	<!-- A FLOWBLOCK -->
 	<div class="grid-25 mobile-grid-100">
 		<div class="grid-container">
-			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/storyboard.png');">
 			</div><br>
 			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
 			<!-- FLOWBLOCK TITLE HERE --> Storyboard <!-- -->
@@ -68,7 +68,7 @@ Our creative team work together on many different productions from fact to ficti
 	<!-- A FLOWBLOCK -->
 	<div class="grid-25 mobile-grid-100">
 		<div class="grid-container">
-			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/identity/blueshuck.svg');">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/production.png');">
 			</div><br>
 			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
 			<!-- FLOWBLOCK TITLE HERE --> Production <!-- -->

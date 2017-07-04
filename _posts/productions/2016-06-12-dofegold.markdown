@@ -3,6 +3,7 @@ layout: production
 title:  "DofE Gold - The Qualifier"
 date:   2016-07-25 10:39:17 +0100
 tinyimage: productions/dofe.png
+largeimage: productions/largeimage/dofe.png
 youtube: 
 skills: Filming, Editing
 software: Final Cut Pro

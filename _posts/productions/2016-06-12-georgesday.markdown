@@ -3,6 +3,7 @@ layout: production
 title:  "Blackpool Scouts - St. George's Day 2016"
 date:   2016-04-12 10:39:17 +0100
 tinyimage: productions/scouts/george16.png
+largeimage: productions/largeimage/SGD16.png
 youtube: https://www.youtube.com/embed/tfKCcHuy1PY
 skills: Editing, Photography
 software: Final Cut Pro

@@ -3,6 +3,7 @@ layout: production
 title:  "Our Year of Adventure... (AGM 2016)"
 date:   2016-06-12 10:39:17 +0100
 tinyimage: productions/scouts/logo.png
+largeimage: productions/largeimage/AGM16.png
 youtube: https://www.youtube.com/embed/JgdFPvYfVOg
 skills: Editing
 software: Final Cut Pro

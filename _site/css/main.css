@@ -1186,7 +1186,8 @@ fieldset[disabled] .btn-warning.focus {
 .largeimage {
   width: 100%;
   height: 200px;
-  background-size: cover !important; }
+  background-size: cover !important;
+  background-position-x: center !important; }
 
 .blockhome {
   padding: 0px !important; }
