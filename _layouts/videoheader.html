@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-
   {% include head.html %}
 
   <body>
 
+
     {% include header.html %}
     <div class="videobox">
-      <div class="wrapper overlaytext">
+    <iframe class="videoiframe" src="https://www.youtube.com/embed/srqeW2imNXg?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&list=PLWXGrZNPVGV5QT1WNsucBVI5pNl7FL3Z9&?modestbranding=1" frameborder="0" allowfullscreen></iframe>
+      
+      <div class="videocover overlaytext">
       <span class="large-videobox">{{page.slogan}}</span>
       <br>
       </div>
 
-      <span class="wrapper overlaysocial"> 
+      <span class="videocover overlaysocial"> 
       <a href="//twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter page-link social-link" aria-hidden="true"></i></a>
       <a href="//facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook page-link social-link" aria-hidden="true"></i></a>
       <a href="//youtube.com/channel/{{ site.youtube_channel_id }}"><i class="fa fa-youtube page-link social-link" aria-hidden="true"></i></a>

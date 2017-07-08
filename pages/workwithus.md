@@ -4,7 +4,7 @@ title: Work with us
 permalink: /workwithus/
 navigation_weight: 3
 menu: main
-backingimage: 'custom.png'
+# backingimage: 'custom.png'
 ---
 
 <div class="grid-container">

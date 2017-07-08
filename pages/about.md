@@ -5,17 +5,19 @@ navigation_weight: 1
 permalink: /about/
 menu: main
 categories: summary
+showreelembed: "https://www.youtube.com/embed/xAe11lOq-wI"
 ---
 
 **Shuck Productions**, based in the North West of England. We strive to create quality products from short films to promotional videos.
 
 Our creative team work together on many different productions from fact to fiction. We aim to tell the story of each sequence and deliver the important message to the audience.
 
+<center><iframe id="ytplayer" class="player-showreel" type="text/html" width="100%" height="400" src="{{ page.showreelembed }}?autoplay=0&modestbranding=1&showinfo=0" frameborder="0"></iframe></center><br>
 <div class="grid-container">
 <hr><br>
 	<!-- A FLOWBLOCK -->
 	<div class="grid-25 mobile-grid-100">
-		<div class="grid-container">
+		<div class="grid-container flowboxparent">
 			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/idea.png');">
 			</div><br>
 			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
@@ -32,7 +34,7 @@ Our creative team work together on many different productions from fact to ficti
 
 
 	<!-- A FLOWBLOCK -->
-	<div class="grid-25 mobile-grid-100">
+	<div class="grid-25 mobile-grid-100 flowboxparent">
 		<div class="grid-container">
 			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/script.png');">
 			</div><br>
@@ -48,7 +50,7 @@ Our creative team work together on many different productions from fact to ficti
 	<!-- END OF A FLOWBLOCK -->
 
 	<!-- A FLOWBLOCK -->
-	<div class="grid-25 mobile-grid-100">
+	<div class="grid-25 mobile-grid-100 flowboxparent">
 		<div class="grid-container">
 			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/storyboard.png');">
 			</div><br>
@@ -66,7 +68,7 @@ Our creative team work together on many different productions from fact to ficti
 
 
 	<!-- A FLOWBLOCK -->
-	<div class="grid-25 mobile-grid-100">
+	<div class="grid-25 mobile-grid-100 flowboxparent endbox">
 		<div class="grid-container">
 			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/production.png');">
 			</div><br>
