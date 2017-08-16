@@ -8,8 +8,17 @@
     <h2 class="footer-heading"></h2>
 
 <div class="grid-container">
+
       <div class="grid-33 mobile-grid-100 noborder">
-      {{ site.description }}<br>
+
+            {% for my_page in site.pages %}
+              {% if my_page.title contains 'HIDE' %}
+              {% elsif my_page.menu == 'main' %}
+              <a class="linkfooter" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a><br>
+              {% endif %}
+            {% endfor %}
+
+
       </div>
 
       <div class="grid-33 mobile-grid-100 noborder">
@@ -17,7 +26,15 @@
       </div>
 
       <div class="grid-33 mobile-grid-100 noborder rightbox">
-        <p><i class="fa fa-copyright" aria-hidden="true"></i> Copyright {{ site.title }} - <script>document.write(new Date().getFullYear())</script></p>
+
+      {% include socialicons.html %}
+
+
+      <br>{{ site.description }}<br><br>
+
+      <p><i class="fa fa-copyright" aria-hidden="true"></i> {{ site.title }} (2015 - <script>document.write(new Date().getFullYear())</script>)</p>
+
+
         <br>
         <div class="siteby"><a href="//northfolk.co.uk"><span class="siteby1">Site by</span> <div class="sitebyimg"></div></a></div>
       </div>

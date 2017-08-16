@@ -8,6 +8,11 @@ menu: main
 
 <div class="grid-container gridbox">
 <br>
+
+<div class="introtous">
+<center><b>Coming Soon!</b></center></div>
+
+<!--
 {% for post in site.categories.testimonial %}
 <div class="grid-100 mobile-grid-100 gridtestimonial">
 <div class="grid-container">
@@ -24,3 +29,4 @@ menu: main
 </div><br>
 
 {% endfor %}
+-->

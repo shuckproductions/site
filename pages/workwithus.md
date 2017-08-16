@@ -9,7 +9,7 @@ menu: main
 
 <div class="grid-container">
 
-<div class="grid-100 mobile-grid-100">
+<div class="introtous">
 
 Do you want to work with us to make new content? Need a promotional video making for your company? <br>If you're not yet sure exactly what you want, meet with us and discuss your options.
 </div>
@@ -19,7 +19,7 @@ Do you want to work with us to make new content? Need a promotional video making
 <div class="grid-50 mobile-grid-100">
 Get in touch: <br>
 
-<form method="POST" class="form" action="http://formspree.io/productions@shuck.org.uk">
+<form method="POST" class="form getintouch" action="http://formspree.io/productions@shuck.org.uk">
   <input style="width: 30%; min-width: 100px;" type="text" name="name" placeholder="Your name">
   <input style="width: 37%; min-width: 100px;" type="email" name="email" placeholder="Your email"><br>
   <input style="width: 80%; min-width: 100px;;" type="text" name="type" placeholder="Enquiry Type"><br>

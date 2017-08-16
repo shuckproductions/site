@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-thin
 title: About
 navigation_weight: 1
 permalink: /about/
@@ -8,9 +8,13 @@ categories: summary
 showreelembed: "https://www.youtube.com/embed/xAe11lOq-wI"
 ---
 
-**Shuck Productions**, based in the North West of England. We strive to create quality products from short films to promotional videos.
+<div class="introtous">
+
+Shuck Productions, based in the North West of England. We strive to create quality products from short films to promotional videos.
 
 Our creative team work together on many different productions from fact to fiction. We aim to tell the story of each sequence and deliver the important message to the audience.
+
+</div><br>
 
 <center><iframe id="ytplayer" class="player-showreel" type="text/html" width="100%" height="400" src="{{ page.showreelembed }}?autoplay=0&modestbranding=1&showinfo=0" frameborder="0"></iframe></center><br>
 <div class="grid-container">
@@ -31,7 +35,6 @@ Our creative team work together on many different productions from fact to ficti
 		</div>
 	</div>
 	<!-- END OF A FLOWBLOCK -->
-
 
 	<!-- A FLOWBLOCK -->
 	<div class="grid-25 mobile-grid-100 flowboxparent">
