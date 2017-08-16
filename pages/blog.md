@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Blog
-navigation_weight: 2
+title: Blog HIDE
 menu: main
 permalink: /blog/
 ---

@@ -3,6 +3,7 @@ layout: production
 title:  "District Camp 2017 [Promo]"
 date:   2017-02-01 10:39:17 +0100
 tinyimage: productions/scouts/2017.png
+largeimage: productions/largeimage/DC2017.png
 youtube: https://www.youtube.com/embed/eec9t5AbXxs
 skills: Editing
 software: Adobe Premiere Pro

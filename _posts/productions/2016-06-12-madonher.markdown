@@ -3,6 +3,7 @@ layout: production
 title:  "Mad on Her - 80's Musical"
 date:   2016-07-12 10:39:17 +0100
 tinyimage: productions/northernstar/moh.png
+largeimage: productions/largeimage/madonher.png
 youtube: https://www.youtube.com/embed/o3r7Nf0bCkg
 skills: Filming, Editing
 software: Final Cut Pro

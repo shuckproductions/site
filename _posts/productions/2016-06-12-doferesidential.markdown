@@ -3,7 +3,8 @@ layout: production
 title:  "DofE Gold - YHA Residential"
 date:   2016-08-26 10:39:17 +0100
 tinyimage: productions/yha.png
-youtube:
+largeimage: productions/largeimage/eskdale16.png
+othervideosite: "<iframe src='https://drive.google.com/file/d/0Bz3YsAm1E_TtQTUwVHlOZHlzZXc/preview' width='640' height='480' allowfullscreen='allowfullscreen'></iframe>"
 skills: Filming, Editing
 software: Adobe Premiere Pro
 client: Duke of Edinburgh Award
@@ -18,4 +19,3 @@ From the 22nd August to the 26th August a group of 6 volunteers helped the YHA w
 
 Watch how the team got on...
 
-<iframe src="https://drive.google.com/file/d/0Bz3YsAm1E_TtQTUwVHlOZHlzZXc/preview" width="640" height="480" allowfullscreen="allowfullscreen"></iframe>

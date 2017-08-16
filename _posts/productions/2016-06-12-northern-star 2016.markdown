@@ -3,6 +3,7 @@ layout: production
 title:  "Northern Star* 2016"
 date:   2016-07-31 10:39:17 +0100
 tinyimage: productions/northernstar/northernstar.png
+largeimage: productions/largeimage/northernstar2016.png
 youtube: https://www.youtube.com/embed/5mzP4Ys8ECM
 skills: Filming, Editing
 software: Final Cut Pro

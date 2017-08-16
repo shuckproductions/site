@@ -1,24 +1,24 @@
 ---
 layout: page
-title: Productions
+title: Portfolio
 navigation_weight: 4
 permalink: /productions/
 menu: main
+showtitle: 'no'
 ---
 
 <div class="grid-container">
-
+<div class="ourwork ourwork-light">Our work:</div>
 {% for post in site.categories.production %}
-<div class="grid-33 mobile-grid-100">
+<a href="{{post.url}}">
+<div class="grid-33 mobile-grid-100 blockhome">
 <div class="attop">
-  <div class="panel-heading">{{ post.title }}</div>
-  <img class="tinyimage" src="{{site.baseurl}}/image/{{post.tinyimage}}"><br>
-  <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>{{ post.date | date: "%B %Y" }}<br></p>
-	<p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ post.skills }} </p>
+  <img class="largeimage" style="background:url('{% if post.largeimage %}{{site.baseurl}}/image/{{post.largeimage}}{% else %}{{site.baseurl}}/image/productions/comingsoon.png{% endif %}');"><br>
 	</div>	 
-	 <div class="atbottom"><a href="{{ post.url }}" class="btn btn-default">Read more</a></div>
+	  <div class="atbottom"><div class="panel-heading panelhead-prods">{{ post.title }}</div>
 	 </div>
-
+	 </div>
+</a>
 
 {% endfor %}
 

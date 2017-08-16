@@ -3,6 +3,7 @@ layout: production
 title:  "Cubs100 - Blackpool Tower Sleepover"
 date:   2016-09-12 10:39:17 +0100
 tinyimage: productions/scouts/cubs100.png
+largeimage: productions/largeimage/tower.png
 youtube: https://www.youtube.com/embed/GBa7SAGFvMA
 skills: Filming, Editing
 software: Adobe Premiere Pro

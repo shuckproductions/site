@@ -1,5 +1,17 @@
 <!DOCTYPE html>
 <html>
+  {% if page.backingimage == null %}
+<script type="text/javascript">
+$(function() {
+var images = ['01.png', '02.png', '03.png', '04.png', '05.png', '06.png', '07.png'];
+$('.backingimage').css({'background-image': 'url({{ site.baseurl }}/image/backing/' + images[Math.floor(Math.random() * images.length)] + ')'});
+});
+</script>
+{% else %}
+<style>.backingimage { 
+  background-image: url('{{ site.baseurl }}/image/custom-bg/{{page.backingimage}}') !important;" </style>
+{% endif %}
+
 
   {% include head.html %}
 
@@ -7,12 +19,15 @@
 
     {% include header.html %}
 
+
+    {% if page.showtitle == "no" %}{% elsif layout.showtitle == "no" %}{%else%}<div class="backingimage"><div class="ourwork ourwork-inwrap wrapper">{{ page.title }}</div>
+</div>{%endif%} <br>
+
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
-
     {% include footer.html %}
 
   </body>

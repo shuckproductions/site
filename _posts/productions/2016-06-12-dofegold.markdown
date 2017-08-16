@@ -3,19 +3,21 @@ layout: production
 title:  "DofE Gold - The Qualifier"
 date:   2016-07-25 10:39:17 +0100
 tinyimage: productions/dofe.png
+largeimage: productions/largeimage/dofe.png
 youtube: 
 skills: Filming, Editing
 software: Final Cut Pro
 client: Duke of Edinburgh Award
+othervideosite: "<iframe src='https://drive.google.com/a/northfolk.co.uk/file/d/0Bz3YsAm1E_TtU1pTLWZ1Vmo1Y2s/preview' width='640' height='480' allowfullscreen='allowfullscreen'></iframe>"
 categories: production
 ---
 <!--The date is in american format, sorry!-->
 <!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'-->
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
+<!-- Other Video source (non YT use iframe URL and use '' instead of "" for all speech marks) -->
 <!-- Write the description below, no character limit -->
 
 From the 9th July to the 12th July a group of 7 people took up the challenge of their DofE Gold qualifying expedition.
 
 Watch how they got on...
 
-<iframe src="https://drive.google.com/a/northfolk.co.uk/file/d/0Bz3YsAm1E_TtU1pTLWZ1Vmo1Y2s/preview" width="640" height="480" allowfullscreen="allowfullscreen"></iframe>

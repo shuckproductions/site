@@ -3,6 +3,7 @@ layout: production
 title:  "Blackpool Gang Show 2015 Promo"
 date:   2015-11-12 10:39:17 +0100
 tinyimage: productions/gangshow/logo.png
+largeimage: productions/largeimage/gs2015.png
 youtube: https://www.youtube.com/embed/YaUXeLNx8sw
 skills: Filming, Editing
 software: Final Cut Pro

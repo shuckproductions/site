@@ -5,9 +5,27 @@
     <description>Shuck Productions create new media content for you. Work with us on many different projects from factual to fictional productions.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 03 Jul 2017 11:08:38 +0100</pubDate>
-    <lastBuildDate>Mon, 03 Jul 2017 11:08:38 +0100</lastBuildDate>
+    <pubDate>Wed, 16 Aug 2017 12:23:42 +0100</pubDate>
+    <lastBuildDate>Wed, 16 Aug 2017 12:23:42 +0100</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Baines School</title>
+        <description>&lt;!--The date is in american format, sorry!--&gt;
+&lt;!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'--&gt;
+&lt;!-- Tinyimage must be 500 x 550 pixels, make background transparent (looks better but optional), url is from the /images directory --&gt;
+&lt;!-- Write the description below, no character limit --&gt;
+
+&lt;p&gt;Baines School required a promotional video for the school. Their new headteacher, Mrs Chapman, wanted a short video to give new and prospective students and their parents a real feel of what the school is like and give them an insight into life at Baines.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 12 May 2017 10:39:17 +0100</pubDate>
+        <link>http://localhost:4000/production/2017/05/12/baines.html</link>
+        <guid isPermaLink="true">http://localhost:4000/production/2017/05/12/baines.html</guid>
+        
+        
+        <category>production</category>
+        
+      </item>
     
       <item>
         <title>District Camp 2017 [Promo]</title>
@@ -91,7 +109,6 @@
 
 &lt;p&gt;Nathaniel wanted a video to cover the events on his birthday weekend, so here they are…&lt;/p&gt;
 
-&lt;iframe src=&quot;https://drive.google.com/file/d/0Bz3YsAm1E_TtX0ZsQkRpOE9aYXM/preview&quot; width=&quot;640&quot; height=&quot;480&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Sat, 01 Oct 2016 10:39:17 +0100</pubDate>
         <link>http://localhost:4000/production/2016/10/01/weekend.html</link>
@@ -146,7 +163,6 @@
 
 &lt;p&gt;Watch how the team got on…&lt;/p&gt;
 
-&lt;iframe src=&quot;https://drive.google.com/file/d/0Bz3YsAm1E_TtQTUwVHlOZHlzZXc/preview&quot; width=&quot;640&quot; height=&quot;480&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Fri, 26 Aug 2016 10:39:17 +0100</pubDate>
         <link>http://localhost:4000/production/2016/08/26/doferesidential.html</link>
@@ -168,24 +184,6 @@
         <pubDate>Mon, 22 Aug 2016 10:39:17 +0100</pubDate>
         <link>http://localhost:4000/production/2016/08/22/eleven.html</link>
         <guid isPermaLink="true">http://localhost:4000/production/2016/08/22/eleven.html</guid>
-        
-        
-        <category>production</category>
-        
-      </item>
-    
-      <item>
-        <title>Scream Summer Challenge 2016</title>
-        <description>&lt;!--The date is in american format, sorry!--&gt;
-&lt;!--For the youtube link, copy from the videos page, an example would be 'https://www.youtube.com/embed/rT26VIe_VBQ'--&gt;
-&lt;!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory --&gt;
-&lt;!-- Write the description below, no character limit --&gt;
-
-&lt;p&gt;This summer a group of students from Scream Theatre School have been working on a showcase of singing, dancing and acting from a variety of different musicals. The show was directed by Ashley Luke Lloyd. (Video in editing)&lt;/p&gt;
-</description>
-        <pubDate>Fri, 12 Aug 2016 10:39:17 +0100</pubDate>
-        <link>http://localhost:4000/production/2016/08/12/summerchallenge.html</link>
-        <guid isPermaLink="true">http://localhost:4000/production/2016/08/12/summerchallenge.html</guid>
         
         
         <category>production</category>

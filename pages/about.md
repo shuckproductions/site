@@ -1,18 +1,93 @@
 ---
-layout: page
+layout: page-thin
 title: About
 navigation_weight: 1
 permalink: /about/
 menu: main
 categories: summary
+showreelembed: "https://www.youtube.com/embed/xAe11lOq-wI"
 ---
 
-**Shuck Productions**, based in the North West of England. We strive to create quality products from short films to promotional videos.
+<div class="introtous">
 
-The company was founded by Jordan Shuck, a filmmaker/actor from Blackpool. Find more information about Jordan [here](http://jordan.shuck.org.uk).
+Shuck Productions, based in the North West of England. We strive to create quality products from short films to promotional videos.
 
 Our creative team work together on many different productions from fact to fiction. We aim to tell the story of each sequence and deliver the important message to the audience.
 
-We work closely with <a href="http://www.blackpoolscouts.org.uk" target="_blank"> Blackpool Scouts </a>, creating their events videos and promotional material, to show their everyday adventure they provide young people. You can view our work for them on their Youtube channel. 
+</div><br>
+
+<center><iframe id="ytplayer" class="player-showreel" type="text/html" width="100%" height="400" src="{{ page.showreelembed }}?autoplay=0&modestbranding=1&showinfo=0" frameborder="0"></iframe></center><br>
+<div class="grid-container">
+<hr><br>
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100">
+		<div class="grid-container flowboxparent">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/idea.png');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Idea <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+			All projects have a great idea behind them. We’ll work with you to develop a concept for your project.
+		   	<!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100 flowboxparent">
+		<div class="grid-container">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/script.png');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Script <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+			The script is the basis of any video. Whether it’s going to be narrated, title driven or even a sequence of shots. We’ll make sure it’s perfect.		    <!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100 flowboxparent">
+		<div class="grid-container">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/storyboard.png');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Storyboard <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+		    Before we start filming, we’ll give you an idea of what the product is going to look like. If tweaks need making, this is the time to do it.
+		    <!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+
+	<!-- A FLOWBLOCK -->
+	<div class="grid-25 mobile-grid-100 flowboxparent endbox">
+		<div class="grid-container">
+			<div class="grid-100 mobile-grid-100" class="flowblock" style="background-image:url('{{site.baseurl}}/image/about-diagram/production.png');">
+			</div><br>
+			<div class="grid-100 mobile-grid-100 flowtext flowtexttitle">
+			<!-- FLOWBLOCK TITLE HERE --> Production <!-- -->
+			</div>
+			<div class="grid-100 mobile-grid-100 flowtext">
+		    <!-- FLOWBLOCK TEXT HERE -->
+			Now it’s time to bring your project to life. We’ll work closely with you through the production and editing process to ensure the project meets your requirements.    <!-- -->
+			</div>
+		</div>
+	</div>
+	<!-- END OF A FLOWBLOCK -->
+
+
+
+
 
 

@@ -1,37 +1,47 @@
 ---
 layout: default
+showtitle: 'no'
+
 ---
 
-<a href="{{ site.baseurl }}/productions"><span><i class="fa fa-arrow-left" aria-hidden="true"></i> productions </span></a>
+<br><br>
+<a class="btn btn-default backtoportfolio" href="{{ site.baseurl }}/productions"><span><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to Portfolio </span></a><br><br>
 
 <article class="production" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <br><br>	
+<div class="grid-container grid100">
+
+<div class="grid-50 mobile-grid-100 gridvideo">
+  {% if page.youtube %}
+  <iframe id="ytplayer" type="text/html" width="100%" height="400"
+  src="{{ page.youtube }}?autoplay=0&modestbranding=1&showinfo=0"
+  frameborder="0"></iframe>
+  {% elsif page.othervideosite %}
+  {{ page.othervideosite }}
+  {% endif %}
+
+</div>
+
+
+<div class="grid-45 mobile-grid-100 gridmaintext">
+
+  <br>
   <header class="production-header">
+    More information on:
     <h1 class="production-title" itemprop="name headline">{{ page.title }}</h1>  </header>
  
-   <img class="tinyimage" src="{{site.baseurl}}/image/{{page.tinyimage}}"><br>
+   <div class="tinyimage" style="background-image:url('{{site.baseurl}}/image/{{page.tinyimage}}');"></div><br>
 <div class="bigblockright">
-   <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %Y" }}</time><br>
-   <p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ page.skills }} </p>
-      <p class="minorinfo"><b><i class="fa fa-file-video-o" aria-hidden="true"></i> Software: </b> {{ page.software }} </p>
-   <p class="minorinfo"><b><i class="fa fa-briefcase" aria-hidden="true"></i> Client: </b> {{ page.client }} </p><br>
+   <p class="minorinfo"><b>Produced:</b>	<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %Y" }}</time><br>
+   <p class="minorinfo"><b>Project Type: </b>{{ page.skills }} </p>
+      <!--<p class="minorinfo"><b><i class="fa fa-file-video-o" aria-hidden="true"></i>&nbsp;Software: </b> {{ page.software }} </p>-->
+   <p class="minorinfo"><b>Client: </b> {{ page.client }} </p><br>
 </div>
 
   <br><div class="description">
-  <b><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Description:</b>  {{ content }}
+  {{ content }}
   </div>
+</div>
 
-  {% if page.youtube == null %} 
-  {% elsif page.youtube == " " %}
-  {% elsif page.youtube == "  " %} 
-  {% elsif page.youtube == "   " %} 
-  {% else %}
-  <br>
-  <p class="minorinfo"><b><i class="fa fa-film" aria-hidden="true"></i> Watch it: </b></p>
-  <iframe id="ytplayer" type="text/html" width="100%" height="400"
-  src="{{ page.youtube }}?autoplay=0&modestbranding=1&showinfo=0"
-  frameborder="0"/>
-{% endif %}
 
 </article>

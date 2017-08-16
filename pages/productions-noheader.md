@@ -5,20 +5,19 @@ permalink: /productions-sans-header/
 menu: main
 ---
 <base target="_parent" />
-
+<br>
 <div class="grid-container">
 
 {% for post in site.categories.production %}
-<div class="grid-33 mobile-grid-100">
+<a href="{{post.url}}">
+<div class="grid-33 mobile-grid-100 blockhome">
 <div class="attop">
-  <div class="panel-heading">{{ post.title }}</div>
-  <img class="tinyimage" src="{{site.baseurl}}/image/{{post.tinyimage}}"><br>
-  <p class="minorinfo"><b><i class="fa fa-calendar" aria-hidden="true"></i> Produced:</b>{{ post.date | date: "%B %Y" }}<br></p>
-	<p class="minorinfo"><b><i class="fa fa-check-square" aria-hidden="true"></i>  Skills: </b>{{ post.skills }} </p>
-</div>
-<div class="atbottom"><a href="{{ post.url }}" class="btn btn-default">Read more</a></div>
-</div>
-
+  <img class="largeimage" style="background:url('{% if post.largeimage %}{{site.baseurl}}/image/{{post.largeimage}}{% else %}{{site.baseurl}}/image/productions/comingsoon.png{% endif %}');"><br>
+	</div>	 
+	  <div class="atbottom"><div class="panel-heading panelhead-prods">{{ post.title }}</div>
+	 </div>
+	 </div>
+</a>
 
 {% endfor %}
 
