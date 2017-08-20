@@ -14,7 +14,7 @@ slogan: 'Stories in Motion'
 <a href="{{post.url}}">
 <div class="grid-33 mobile-grid-100 blockhome">
 <div class="attop">
-  <img class="largeimage" src="{% if post.largeimage %}{{site.baseurl}}/image/{{post.largeimage}}{% else %}{{site.baseurl}}/image/productions/comingsoon.png{% endif %}"><br>
+  <div class="largeimage" style="background-image:url('{% if post.largeimage %}{{site.baseurl}}/image/{{post.largeimage}}{% else %}{{site.baseurl}}/image/productions/comingsoon.png{% endif %}');"></div><br>
   </div>   
     <div class="atbottom"><div class="panel-heading panelhead-prods">{{ post.title }}</div>
    </div>
