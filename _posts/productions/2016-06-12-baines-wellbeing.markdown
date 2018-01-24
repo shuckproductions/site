@@ -7,7 +7,7 @@ youtube: https://www.youtube.com/embed/m3lpYf-kEnA
 skills: Editing, Filming
 software: Final Cut Pro
 client: Baines School Wellbeing Committee
-largeimage: productions/largeimage/wellbeing.png
+largeimage: productions/largeimage/wellbeing.PNG
 categories: production
 ---
 <!--The date is in american format, sorry!-->
