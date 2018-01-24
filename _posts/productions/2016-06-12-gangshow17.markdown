@@ -1,6 +1,6 @@
 ---
 layout: production
-title:  "Blackpool Gang Show 2017 Promotional Video"
+title:  "Blackpool Gang Show 2017"
 date:   2017-10-13 10:39:17 +0100
 tinyimage: productions/gangshow/logo.png
 largeimage: productions/largeimage/gs2017.png

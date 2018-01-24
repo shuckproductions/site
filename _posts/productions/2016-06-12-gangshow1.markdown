@@ -1,6 +1,6 @@
 ---
 layout: production
-title:  "Blackpool Gang Show 2015 Promo"
+title:  "Blackpool Gang Show 2015"
 date:   2015-11-12 10:39:17 +0100
 tinyimage: productions/gangshow/logo.png
 largeimage: productions/largeimage/gs2015.png
@@ -15,6 +15,6 @@ categories: production
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
 
-Promotional video for their 2015 show. 'Come and have the night of nights, Blackpool Gang Show and Blackpool lights'. 
+Promotional video for their 2015 show. 'Come and have the night of nights, Blackpool Gang Show and Blackpool lights'.
 
-We filmed their full show and created a DVD that was for sale during and after the show week. 
+We filmed their full show and created a DVD that was for sale during and after the show week.

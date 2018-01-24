@@ -1,6 +1,6 @@
 ---
 layout: production
-title:  "District Camp 2017 [Promo]"
+title:  "District Camp 2017 [PROMOTIONAL]"
 date:   2017-02-01 10:39:17 +0100
 tinyimage: productions/scouts/2017.png
 largeimage: productions/largeimage/DC2017.png
@@ -17,3 +17,4 @@ categories: production
 
 Blackpool District Camp is back and bigger than ever...
 
+Including this promotional video, we created a DVD and two teaser videos that were uploaded to the Blackpool Scouts Facebook page reaching over 2000 people each.

@@ -1,6 +1,6 @@
 ---
 layout: production
-title:  "Blackpool Scouts - District Camp 2015"
+title:  "Blackpool District Camp 2015"
 date:   2015-06-12 10:39:17 +0100
 tinyimage: productions/scouts/camp2015.png
 youtube: https://www.youtube.com/embed/jARdzxbI4KY
@@ -14,6 +14,6 @@ categories: production
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
 
-Below is a short clip from Blackpool Scouts District Camp, from 14th June - 16th June 2015, showing an aerial shot of their campsite. 
+Below is a short clip from Blackpool Scouts District Camp, from 14th June - 16th June 2015, showing an aerial shot of their campsite.
 
-We created a full 20 minute DVD of the whole camp weekend that was sold to individuals. 
+We created a full 20 minute DVD of the whole camp weekend that was sold to individuals.

@@ -1,6 +1,6 @@
 ---
 layout: production
-title:  "BFLOC's 'Grease' Promo"
+title:  "BFLOC's 'Grease' [PROMOTIONAL]"
 date:   2016-05-12 10:39:17 +0100
 tinyimage: productions/grease/bfloc.png
 largeimage: productions/largeimage/bfloc.PNG

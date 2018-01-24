@@ -1,6 +1,6 @@
 ---
 layout: production
-title:  "Baines School"
+title:  "Baines School [PROMOTIONAL]"
 date:   2017-05-12 10:39:17 +0100
 tinyimage: productions/baines/baines.png
 youtube: https://www.youtube.com/embed/BbG4q-nCddA
