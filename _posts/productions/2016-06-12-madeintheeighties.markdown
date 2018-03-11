@@ -15,7 +15,9 @@ categories: production
 <!-- Tinyimage must be 500 x 500 pixels, make background transparent (looks better but optional), url is from the /images directory -->
 <!-- Write the description below, no character limit -->
 
-We were asked by a previous client, Ashley Luke Lloyd, to do stills photography for his new film, Made in the Eighties. All production photographs can be found on our Flickr <a href="https://www.flickr.com/photos/jordan-shuck/albums/72157664572968187"> here. </a>
+We were asked by a previous client, Ashley Luke Lloyd, to do stills photography for his new film, Made in the Eighties. All production photographs can be found on our Flickr below.
+
+<a data-flickr-embed="true" data-header="true"  href="https://www.flickr.com/photos/jordan-shuck/albums/72157664572968187" title="Made in the Eighties - Production Stills"><img src="https://farm5.staticflickr.com/4775/40745110381_ea88edc9e7_z.jpg" width="640" height="427" alt="Made in the Eighties - Production Stills"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Please note copyright below. All images must be credited if used (Tag our social media or mention our name).
 
