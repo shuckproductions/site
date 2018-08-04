@@ -5,7 +5,7 @@ navigation_weight: 1
 permalink: /about/
 menu: main
 categories: summary
-showreelembed: "https://www.youtube.com/embed/xAe11lOq-wI"
+showreelembed: ""
 ---
 
 <div class="introtous">
